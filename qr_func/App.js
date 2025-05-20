@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 import QRGeneratorScreen from './screens/QRGeneratorScreen';
 import QRScannerScreen from './screens/QRScannerScreen';
-
+//메인
 export default function App() {
   const [screen, setScreen] = useState('home');
 

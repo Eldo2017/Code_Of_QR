@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';
-
+//QR 생성
 export default function QRGenerator() {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');

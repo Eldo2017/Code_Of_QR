@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button, Alert } from 'react-native';
 import { CameraView } from 'expo-camera';
-
+//QR 스캔
 export default function QRScannerScreen({ goBack }) {
   const [scanned, setScanned] = useState(false);
   const [qrData, setQrData] = useState(null);
